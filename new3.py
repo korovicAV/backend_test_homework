@@ -16,14 +16,14 @@ print(f'Тип линии: {rotary_phone.line_type}')
 print(f'Тип линии: {keypad_phone.line_type}')
 
 # Поменять значение атрибута line_type для объекта rotary_phone.
-rotary_phone.line_type='радио'
+rotary_phone.line_type = 'радио'
 
 # Снова распечатать значения.
 print(f'Тип линии: {rotary_phone.line_type}')
 print(f'Тип линии: {keypad_phone.line_type}')
 
 # Поменять значение атрибута класса через класс.
-Phone.line_type='спутниковый'
+Phone.line_type = 'спутниковый'
 
 # Снова распечатать значения.
 print(f'Тип линии: {rotary_phone.line_type}')
